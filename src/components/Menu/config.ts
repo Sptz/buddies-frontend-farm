@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.rockswap.finance/',
+        href: 'https://exchange.chessdefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.rockswap.finance/#/pool',
+        href: 'https://exchange.chessdefi.com/#/pool',
       },
     ],
   },
@@ -26,9 +26,9 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Mining',
-    icon: 'PoolIcon',
-    href: '/mining',
+    label: 'Checkerboard ',
+    icon: 'CheckerboardIcon',
+    href: '/nests',
   },
   // {
   //   label: 'Pools',
@@ -51,8 +51,20 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x5f26be59d28e0b3a9c58e242a58acc05e000f4ad',
+        href: 'https://pancakeswap.info/token/0xe32c2f4065e911ed678c8bee47289a9b3d39f638',
       },
+      // {
+      //   label: 'CoinGecko',
+      //   href: 'https://www.coingecko.com/en/coins/goose-finance',
+      // },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/goose-finance/',
+      // },
+      // {
+      //   label: 'AstroTools',
+      //   href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      // },
     ],
   },
   {
@@ -61,11 +73,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/rockswapfinance/',
+        href: 'https://github.com/chessfinance/',
       },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://goosedefi.gitbook.io/goose-finance/',
+      // },
       {
         label: 'Blog',
-        href: 'https://rockswap.medium.com/',
+        href: 'https://chessdefi.medium.com/',
       },
     ],
   },

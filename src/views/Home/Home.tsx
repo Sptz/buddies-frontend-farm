@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/rockswap/rock.svg');
+  background-image: url('/images/egg/3.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,9 +23,9 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/rockswap/rock.svg'), url('/images/rockswap/wheelbarrow.svg');
+    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
     background-position: left center, right center;
-    height: 100px;
+    height: 165px;
     padding-top: 0;
   }
 `
@@ -59,15 +59,15 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="primary">
-          Rockswap
+        <Heading as="h1" size="xl" mb="24px" color="#865f35">
+          {TranslateString(576, 'Chess Finance')}
         </Heading>
-        <Text>The most robust yield-farm on Binance Smart Chain.</Text>
+        <Text>{TranslateString(578, 'The Best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
-          <TwitterCard />
+          <TwitterCard/>
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>

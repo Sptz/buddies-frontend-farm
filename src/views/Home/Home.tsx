@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
-// import useI18n from 'hooks/useI18n'
+import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
-// import LotteryCard from './components/LotteryCard'
+import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
@@ -54,7 +54,7 @@ const Cards = styled(BaseLayout)`
 `
 
 const Home: React.FC = () => {
- // const TranslateString = useI18n()
+  const TranslateString = useI18n()
 
   return (
     <Page>
